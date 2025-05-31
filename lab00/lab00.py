@@ -6,5 +6,4 @@ def twenty_twenty_four():
     2024
     """
     return 2024
-    
 
