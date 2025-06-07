@@ -14,12 +14,7 @@ def composite_identity(f, g):
     False
     """
     "*** YOUR CODE HERE ***"
-    def composite_identity_function(x):
-        if (f(g(x)) == g(f(x))):
-            return True
-        else:
-            return False
-    return composite_identity_function
+
 
 def sum_digits(y):
     """Return the sum of the digits of non-negative integer y."""
@@ -65,13 +60,7 @@ def count_cond(condition):
     8
     """
     "*** YOUR CODE HERE ***"
-    def count_function(N):# ?
-        count = 0
-        for i in range(1, N+1):
-            if condition(N, i):
-                count += 1
-        return count
-    return count_function
+
 
 def multiple(a, b):
     """Return the smallest number n that is a multiple of both a and b.
